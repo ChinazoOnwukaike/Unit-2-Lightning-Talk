@@ -4,4 +4,4 @@ dog_bp = Blueprint("dog", __name__)
 
 @dog_bp.route("/", methods=["GET"])
 def home():
-    return "Hello World"
+    return "<h1>Hello World</h1>"
